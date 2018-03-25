@@ -2,7 +2,7 @@
 
 class School
 
-  def initialize
+  def initialize(school)
     roster =[]
 
 end
