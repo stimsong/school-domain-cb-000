@@ -3,7 +3,7 @@
 class School
 
   def initialize(school)
-    roster =[]
+    roster = []
   end
 
 end
