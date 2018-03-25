@@ -21,7 +21,7 @@ class School
   end
 
   def sort
-    @roster[grade].sort
+    @roster[k].sort
 #    sorted.sort.to_h
   end
 
