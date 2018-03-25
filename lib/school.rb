@@ -1,5 +1,5 @@
 # code here!
 
-class = School
+class School
 
 end
