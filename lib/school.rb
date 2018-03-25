@@ -4,7 +4,7 @@ class School
   attr_accessor :roster, :student
 
   def initialize(school)
-    @roster = []
+    @roster = {}
   end
 
 
