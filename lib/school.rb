@@ -21,7 +21,9 @@ class School
   end
 
   def sort
-    @roster[k].sort
+    @roster.each do |grade, name|
+      @roster.sort_by(name)
+    end
 #    sorted.sort.to_h
   end
 
