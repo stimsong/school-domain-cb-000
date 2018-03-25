@@ -21,7 +21,9 @@ class School
   end
 
   def sort
-    @roster.sort_by{ |k, v| v }
+    @roster.each do |grade, name|
+      @roster[grade] = name.sort
+    end
   end
 
 end
